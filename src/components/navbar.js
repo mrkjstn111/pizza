@@ -36,9 +36,14 @@ export default class Navbar extends Component {
                   Home
                 </Link>
               </li>
+              <li className="nav-item ">
+                <Link className="nav-link active" aria-current="page" to="/admin">
+                  Admin
+                </Link>
+              </li>
               <li>
                 <button
-                  class="btn btn-outline-success"
+                  className="btn btn-outline-success"
                   data-bs-toggle="modal"
                   data-bs-target="#addItemModal"
                 >
